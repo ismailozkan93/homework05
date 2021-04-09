@@ -1,4 +1,4 @@
-package Section1;
+package Section01;
 
 
 public class PassByValue {
