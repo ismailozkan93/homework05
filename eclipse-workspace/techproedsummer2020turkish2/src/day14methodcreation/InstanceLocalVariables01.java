@@ -22,10 +22,12 @@ public class InstanceLocalVariables01 {
 		/*1) Instance Variable larin scope u icinde bulundugu class in her yeridir.Yani instance variablelar class in 
 		 * 	 icinde her yerde kullanilabilir.
 		 *2) Lokal Variablelarin scope icindeki bulunduklari metodun bodysidir.
-		 *yani lokjal variablelar method body icinde kullanilabilirler. 
+		 *yani lokal variablelar method body icinde kullanilabilirler. 
 		 */
 		
-		
+	//Not:Instance variable'lara deger atamasi yapmazsaniz Java onlara default deger atamasi yapar. Ama local
+	//variablelara deger atamasi yapmazsaniz Java onlara default deger atamasi yapmaz ve variable kullanmak
+	//istediginizde "Compile Time Error" verir.	
 		
 		
 	}

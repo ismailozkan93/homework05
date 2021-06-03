@@ -12,13 +12,19 @@ public class Homework04 {
 		String a = scan.nextLine();
 		int b = scan.nextInt();
 		int c = scan.nextInt(); 
-		
+		int d=scan.nextInt();
 		
 		
 		
 	}
-	public static void dörtgen(String a, int b, int c) {
-		
+	public static void dörtgen(String a, int b, int c, int d,int alan,int cevre) {
+		switch(a.toLowerCase()) {
+		case "ücgen":
+			alan=(c*b)/2;
+	//		cevre(b+c+d);
+	//	case "dikdörtgen";
+			alan=(b*c)/2;
+		}
 		
 	}
 
